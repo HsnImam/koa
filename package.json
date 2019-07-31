@@ -1,0 +1,30 @@
+{
+  "name": "koajs",
+  "version": "1.0.0",
+  "description": "A simple KoaJs Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "lint": "eslint .",
+    "test": "jest --watchAll"
+  },
+  "author": "Hassan Imam",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "check-disk-space": "^2.0.0",
+    "fs-extra": "^8.0.1",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "redis": "^2.8.0",
+    "request-promise": "^4.2.4",
+    "sentiment": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "jest": "^24.7.1",
+    "supertest": "^4.0.2"
+  }
+}
